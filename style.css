@@ -688,7 +688,7 @@ input[type=email] {
         margin: 0 auto;
     }
     .right-img img{
-        max-width:345px;
+        /* max-width:345px; */
     }
 
     .sizes{
@@ -724,6 +724,10 @@ input[type=email] {
     .up-head{
         font-size: 2rem;
         font-weight: 700;
+    }
+
+    .footer-boxes{
+        grid-template-columns: repeat(2,1fr);
     }
     .footer-boxes .first{
         grid-column: 1/-1;
@@ -793,13 +797,13 @@ input[type=email] {
     }
 
     .left-img img{
-        max-width: 170px;
+        /* max-width: 170px; */
     }
     .right-img{
         margin: 0 ;
     }
     .right-img img{
-        max-width:500px;
+        max-width:350px;
     }
     .review-filter{
         gap: 1rem;
