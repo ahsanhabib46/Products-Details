@@ -406,12 +406,11 @@ input[type=search] {
 
 .review-rating {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid #777;
     color: #777;
     margin: 4rem auto 2rem;
-    font-size: 1.5rem;
 }
 
 .review-rating .rating {
@@ -811,6 +810,19 @@ input[type=email] {
         gap: 1rem;
     }
     
+}
+
+@media (max-width:1024px) {
+    .product-details{
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .image-align{
+        justify-content: start;
+    }
+    .details{
+        margin-left: 0;
+    }
 }
 
 @media (max-width:1440px) {
